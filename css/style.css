@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    font-family: Red Hat Display,sans-serif;
+    background-image: url("image/pattern-background-desktop.svg");
+    background-color:   hsl(225, 100%, 94%);
+    background-size: contain;
+    position: relative;
+}
+html{
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    box-sizing: border-box;
+    background-color: hsl(225, 100%, 98%);
+    text-align: center;
+    width: 25%;
+    left: 40%;
+    padding-top: 20px;
+}
+.hero{
+    width: 100%;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px;
+}
+.description{
+    font-size: 20px;
+    font-weight: normal;
+    color:  hsl(224, 23%, 55%);
+    padding: 10px 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.list{
+    display: flex;
+}
+.music{
+    padding-left: 10px;
+}
+ .payment-plan{
+     padding-left: 25px;
+ }
+.price{
+    padding-left: 25px;
+    color:  hsl(224, 23%, 55%);
+}
+.change{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.challenge{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    
+}
+.btn {
+    background: hsl(245, 75%, 52%);
+    background-image: -webkit-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+    background-image: -moz-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+    background-image: -ms-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+    background-image: -o-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+    background-image: linear-gradient(to bottom, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+    /* -webkit-border-radius: 11;
+    -moz-border-radius: 11; */
+    border-radius: 11px;
+    font-family: Arial;
+    color: white;
+    font-size: 19px;
+    padding: 10px 20px 9px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+  
+  .cancel-order {
+    background: white;
+    background-image: -webkit-linear-gradient(top, white, white);
+    background-image: -moz-linear-gradient(top, white, white);
+    background-image: -ms-linear-gradient(top, white, white);
+    background-image: -o-linear-gradient(top, white, white);
+    background-image: linear-gradient(to bottom, white, white);
+    /* -webkit-border-radius: 9;
+    -moz-border-radius: 9; */
+    border-radius: 9px;
+    font-family: Arial;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .cancel-order:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+  
+      
+  
+ 
